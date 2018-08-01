@@ -4,9 +4,9 @@ https://keybase.io/cvc
 
 I hereby claim:
 
-  * I am an admin of https://ctlos.gitlab.io
+  * I am an admin of https://ctlos.github.io
   * I am cvc (https://keybase.io/cvc) on keybase.
-  * I have a public key with fingerprint 5041 7293 016B 25BE D724  9D83 98F7 6D97 B786 E6A3
+  * I have a public key ASDhXs0XpGByV1OyL4KxK82XNFtfCz0TzNsKGpU2fx0qcAo
 
 To do so, I am signing this object:
 
@@ -14,52 +14,39 @@ To do so, I am signing this object:
   "body": {
     "key": {
       "eldest_kid": "0120e15ecd17a460725753b22f82b12bcd97345b5f0b3d13ccdb0a1a95367f1d2a700a",
-      "fingerprint": "50417293016b25bed7249d8398f76d97b786e6a3",
       "host": "keybase.io",
-      "key_id": "98f76d97b786e6a3",
-      "kid": "0101bf9c8b13b506acf83bfbff1469d6fa4219248a57e0366f2949c4feeb9fcd9f580a",
+      "kid": "0120e15ecd17a460725753b22f82b12bcd97345b5f0b3d13ccdb0a1a95367f1d2a700a",
       "uid": "14e51a4c8ec0b3b31d10c8a7371f7919",
       "username": "cvc"
     },
+    "merkle_root": {
+      "ctime": 1533115267,
+      "hash": "1d3440c89d3cbf4daf570930a3e98153a2d5f1565c74292acd7246aed0abaa9ffb72ef805e012b8f21156e3aa8cee471fe50ec42bff083b3b8d27cc682aa4bd2",
+      "hash_meta": "603bbbfc2f99b1b5061c34d3915dadaae58399b2fa6a0a03f61112dea3710450",
+      "seqno": 3365995
+    },
     "service": {
-      "hostname": "ctlos.gitlab.io",
+      "entropy": "plIclBQt6u89qMgRDndWfZXm",
+      "hostname": "ctlos.github.io",
       "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 1
+    "version": 2
   },
-  "ctime": 1532797027,
-  "expire_in": 157680000,
-  "prev": "d99c0e656404e3168187ad9b06c906042edd32832f7460b8edb6c2b3f8e9e75d",
-  "seqno": 127,
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.4.0"
+  },
+  "ctime": 1533115299,
+  "expire_in": 504576000,
+  "prev": "4308ad1f5df13011bb5db5a41bbca69ab5206b44eb8b8809e5ec3b978501a1d2",
+  "seqno": 129,
   "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.77
-Comment: https://keybase.io/crypto
-
-yMJcAnicbVJbaFxVFJ2krdpA0YgtwfRD7oetNsbzuOcVpFY/tNRItIj1ERzPc3Kb
-6dzx3jtTQ0yLNCSKFKcWjBEfFRFELWhVQlVqk7YICgWjFv2K1qKhpB9NA/VRWs+N
-5s/zczh7r732Wvvs46uWFVqaXrm4Y2xi5Le3m76ZHKsVHu89oAcDFZuBoGsw6LeL
-ly0bm2bF/sgEXQGACFhIrDaQyZAChggjWCHkOFIQKW0EwyFRxAGFDcRaGwUklIJg
-yhw0SDIAZNARuKhSskk1iSqZpyUghAwJDCBViChrGAqF4Vhwx6inVIxTSyX2hX1x
-mld4cUqmtjOKfcw/iovy/ge/pBtA5YTmCmJFAJXacayccg6GVBjqZIigQCGXhFmA
-KXVIhEKHzlolnHflCF/UXVukg6ElUIaaW+19KgwNBJpLhhl0TECRA1ObVOQO69G6
-roOhjsAH6pG2+UxzE0vJrBynnaUoK0v1r5tqEmexjss+2Zdl1bQrL84Gqjl6p1XF
-/3iKKqoYP0VfUbdJGsWVoAt6pM6inBgSjJhgALGOwD5djRJbjHIEYZQDf/I+tu4p
-jRAaWEpoCEKLIeWQM2mEAlQLQEGIrDEYcYwc8x+uuDWKaqSw41ZYRkyQO3uqEnvu
-vFcmS540jUoVmdUSGwxNHe1dXmhqKVy1ojnfr0LLyuuWtu7IR1dfSV6bXzP+yfiz
-x2e7//71ux9GH117X7lHXdwyv+qZmZ2HzpxrXOiZP7ZCrTvy4We1209e2uSSW0eZ
-OFy7t3tw9Kw8v231xKdbRrqH1/e2TyycO1s+uvanG6c2Pbjs9enV0YaxvRcaDz82
-N7p8oGfPQ/VdJxpk7qU1H2x/+dJfdMPmK9vH643hrO18e+H7hc37LgcHv7rp/juH
-bh4e+Pnu2O7mC/sHf7yrv9WdZp1Tb3z87hNftE2eKL23//TB5/bMHNt1WI/fsxG1
-JO2tf57se+D9vS+euu3r2fUvnNqaPvJkc/NIa2nl85f55Mz0oelvf3/1reFrrpVf
-ft5o3brvzC27Z9+sbWubu/6Pde/c8csNG/8BvaBG5w==
-=yyk9
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg4V7NF6RgcldTsi+CsSvNlzRbXws9E8zbChqVNn8dKnAKp3BheWxvYWTES5cCzIHEIEMIrR9d8TARu121pBu8ppq1IGtE64uICeXsO5eFAaHSxCALBppoqLazYqcmA5LBnhspvxdiAfcGf95rkCquKowpDgIBwqNzaWfEQMznOYm3UlpJ9k5raDBVbNhShXVO8OiuVecnQPMemDBs6xMxOnZrhDuO0YxQW0i1+WZLkn6q27gws0t04HmyHQSoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCCdItMTu4ZAe5hblVE8Md4j4MRlPY7Yax8DLbC9c10/aN0YWfNAgKndmVyc2lvbgE=
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
