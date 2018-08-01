@@ -1,0 +1,24 @@
+- name: Wiki
+  link: /wiki
+  new_window: false
+  highlight: false
+- name: Блог
+  link: https://medium.com/ctlos
+  new_window: true
+  highlight: false
+- name: О нас
+  link: https://medium.com/ctlos/ctlos-about-4a2bd90eadb5
+  new_window: true
+  highlight: false
+- name: Сообщество
+  link: /contact
+  new_window: false
+  highlight: false
+- name: Поддержать
+  link: /donat
+  new_window: false
+  highlight: false
+- name: Скачать
+  link: /get
+  new_window: false
+  highlight: true

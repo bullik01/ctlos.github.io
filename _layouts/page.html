@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="content">
+	<section class="page">
+		<div class="container {% if page.full_width %}max-container{% endif %}">
+			{% if page.heading %}
+				<h2>{{ page.heading }}</h2>
+			{% elsif page.title and page.layout != 'archive' %}
+				<h2>{{ page.title }}</h2>
+			{% endif %}
+			{% if page.description %}
+				<p class="text-container subtext">{{ page.description }}</p>
+			{% endif %}
+
+			{% if page.post_photo_path %}<img class="post-img" src="{{ page.post_photo_path }}" alt="{{ page.title }}">{% endif %}
+			
+			{% if page.post_video %}
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.post_video }}?autoplay=0&modestbranding=1&showinfo=0&controls=0&theme=light&disablekb=1&rel=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+			{% endif %}
+			
+			{{ content }}			
+			<section class="get">
+				<div class="text-container flex">
+					<div class="text editable">
+						{% if site.disqus_shortname %}
+						{% include disqus.html %}
+						{% endif %}
+					</div>
+				</div>
+			</section>
+		</div>
+	</section>
+</div>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i%7CRoboto:400,400i,700,700i&amp;subset=cyrillic">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/screen.css">
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/img/favicon/apple-touch-icon.png">
+	<link rel="shortcut icon" type="image/png" sizes="128x128" href="{{ site.baseurl }}/assets/img/favicon/favicon-128x128.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="{{ site.baseurl }}/manifest.json">
+	<link rel="mask-icon" href="{{ site.baseurl }}/assets/img/favicon/safari-pinned-tab.svg" color="#407afc">
+	<meta name="theme-color" content="#407afc">
+	
+	{% seo %}
+	
+	<meta name="google-site-verification" content="{{ site.google_verification }}" />
+
+	<!-- google-analitics -->
+	<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
+	<script>
+		var galite = galite || {};
+		galite.UA = '{{ site.google_analytics }}';
+	</script>
+
+</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/img/logo.svg" alt="Ctlos Logo" width="95" height="33" /></a></div>
+				{% include navigation.html %}
+			</div>
+		</header>
+		{{ content }}		
+		<footer>
+			<div class="container">
+				<ul class="footer-left-links">
+					{% for link in site.data.footer.left_links %}
+						<li>
+							<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
+								{% if link.social_icon %}{% include social-icon.html icon=link.social_icon %}{% endif %}
+								{{ link.name }}
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
+				<ul class="footer-right-links">
+					{% for link in site.data.footer.right_links %}
+						<li>
+							<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
+								{% if link.social_icon %}{% include social-icon.html icon=link.social_icon %}{% endif %}
+								{{ link.name }}
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
+				<div class="copyright">
+					<a href="https://cvc.hashbase.io">
+						by Alex Creio
+					</a>
+				</div>
+			</div>
+		</footer>
+
+		<div id="scrollup"><i class="fa fa-chevron-circle-up up" aria-hidden="true"></i></div>
+
+		<script>
+			document.getElementById("open-nav").onclick = function () {
+				document.body.classList.toggle("nav-open");
+				return false;
+			};
+		</script>
+
+		<script type="text/javascript" src="https://vk.com/js/api/openapi.js?158"></script>
+		<!-- VK Widget -->
+		<div id="vk_community_messages"></div>
+		<script type="text/javascript">
+			VK.Widgets.CommunityMessages("vk_community_messages", 154637969, {disableButtonTooltip: "1"});
+		</script>
+
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/jquery.scroolly.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/main.js"></script>
+
+		<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter{{ site.ya_metrika }} = new Ya.Metrika2({ id:{{ site.ya_metrika }}, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/tag.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks2"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/{{ site.ya_metrika }}" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+	</body>
+</html>

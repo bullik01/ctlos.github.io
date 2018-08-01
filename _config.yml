@@ -1,0 +1,80 @@
+# ----
+# Site
+
+title: Ctlos Linux
+url: "https://ctlos.github.io"
+baseurl:
+google_analytics: UA-90439782-2
+ya_metrika: 47541358
+google_verification: 6GXUozcEfaPdh8Qcr-0qBY2AV8MkL-QoQ66FpbytieM
+disqus_shortname: ctlos
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /assets/img/siteicon.png
+description: Ctlos Linux — iso образ, основанный на Arch Linux.
+author:
+  name: Alex Creio
+  email: ctlos@protonmail.com
+  twitter: ctloslin
+social:
+  name: Ctlos Linux
+  links:
+    - https://github.com/ctlos
+
+# -----
+# Build
+
+include: ["_pages"]
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+collections:
+  staff_members:
+    _hide_content: true
+
+permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "staff_members"
+    values:
+      _options:
+        image_path:
+          width: 600
+          height: 600
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+
+gems:
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jemoji
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - README.md
+  - yarn.lock
+
+social_icons:
+  - vk
+  - discord
+  - youtube
+  - twitter
+  - github

@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/cvc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ctlos.gitlab.io
+  * I am cvc (https://keybase.io/cvc) on keybase.
+  * I have a public key with fingerprint 5041 7293 016B 25BE D724  9D83 98F7 6D97 B786 E6A3
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e15ecd17a460725753b22f82b12bcd97345b5f0b3d13ccdb0a1a95367f1d2a700a",
+      "fingerprint": "50417293016b25bed7249d8398f76d97b786e6a3",
+      "host": "keybase.io",
+      "key_id": "98f76d97b786e6a3",
+      "kid": "0101bf9c8b13b506acf83bfbff1469d6fa4219248a57e0366f2949c4feeb9fcd9f580a",
+      "uid": "14e51a4c8ec0b3b31d10c8a7371f7919",
+      "username": "cvc"
+    },
+    "service": {
+      "hostname": "ctlos.gitlab.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1532797027,
+  "expire_in": 157680000,
+  "prev": "d99c0e656404e3168187ad9b06c906042edd32832f7460b8edb6c2b3f8e9e75d",
+  "seqno": 127,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMJcAnicbVJbaFxVFJ2krdpA0YgtwfRD7oetNsbzuOcVpFY/tNRItIj1ERzPc3Kb
+6dzx3jtTQ0yLNCSKFKcWjBEfFRFELWhVQlVqk7YICgWjFv2K1qKhpB9NA/VRWs+N
+5s/zczh7r732Wvvs46uWFVqaXrm4Y2xi5Le3m76ZHKsVHu89oAcDFZuBoGsw6LeL
+ly0bm2bF/sgEXQGACFhIrDaQyZAChggjWCHkOFIQKW0EwyFRxAGFDcRaGwUklIJg
+yhw0SDIAZNARuKhSskk1iSqZpyUghAwJDCBViChrGAqF4Vhwx6inVIxTSyX2hX1x
+mld4cUqmtjOKfcw/iovy/ge/pBtA5YTmCmJFAJXacayccg6GVBjqZIigQCGXhFmA
+KXVIhEKHzlolnHflCF/UXVukg6ElUIaaW+19KgwNBJpLhhl0TECRA1ObVOQO69G6
+roOhjsAH6pG2+UxzE0vJrBynnaUoK0v1r5tqEmexjss+2Zdl1bQrL84Gqjl6p1XF
+/3iKKqoYP0VfUbdJGsWVoAt6pM6inBgSjJhgALGOwD5djRJbjHIEYZQDf/I+tu4p
+jRAaWEpoCEKLIeWQM2mEAlQLQEGIrDEYcYwc8x+uuDWKaqSw41ZYRkyQO3uqEnvu
+vFcmS540jUoVmdUSGwxNHe1dXmhqKVy1ojnfr0LLyuuWtu7IR1dfSV6bXzP+yfiz
+x2e7//71ux9GH117X7lHXdwyv+qZmZ2HzpxrXOiZP7ZCrTvy4We1209e2uSSW0eZ
+OFy7t3tw9Kw8v231xKdbRrqH1/e2TyycO1s+uvanG6c2Pbjs9enV0YaxvRcaDz82
+N7p8oGfPQ/VdJxpk7qU1H2x/+dJfdMPmK9vH643hrO18e+H7hc37LgcHv7rp/juH
+bh4e+Pnu2O7mC/sHf7yrv9WdZp1Tb3z87hNftE2eKL23//TB5/bMHNt1WI/fsxG1
+JO2tf57se+D9vS+euu3r2fUvnNqaPvJkc/NIa2nl85f55Mz0oelvf3/1reFrrpVf
+ft5o3brvzC27Z9+sbWubu/6Pde/c8csNG/8BvaBG5w==
+=yyk9
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cvc
+
+==================================================================
