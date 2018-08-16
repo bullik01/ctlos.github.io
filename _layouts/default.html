@@ -36,13 +36,17 @@
 				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/img/logo.svg" alt="Ctlos Logo" width="95" height="33" /></a></div>
 				{% include navigation.html %}
 			</div>
-			<div class="container social center">
+			<ul class="container social center">
 				<!-- LikeBtn.com BEGIN -->
-				<span class="likebtn-wrapper" data-theme="lightgray" data-lang="ru" data-i18n_like="like" data-identifier="item_1" data-dislike_enabled="false" data-counter_frmt="km"></span>
+				<li>
+					<span class="likebtn-wrapper" data-theme="lightgray" data-lang="ru" data-i18n_like="like" data-identifier="item_1" data-dislike_enabled="false" data-counter_frmt="km"></span>
 				<script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
-				<!-- LikeBtn.com END -->
+				</li>
+				<li>
+					<!-- LikeBtn.com END -->
 				<a class="github-button" href="https://github.com/ctlos/ctlosiso" data-icon="octicon-star" data-show-count="true" aria-label="Star ctlos/ctlosiso on GitHub">Star</a>
-			</div>
+				</li>
+			</ul>
 		</header>
 		{{ content }}		
 		<footer>
