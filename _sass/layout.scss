@@ -35,11 +35,18 @@ header {
 	}
 
 	.company-name {
-		font-size: 1.7em;
+		font-size: 2em;
 		line-height: 0;
+		text-transform: uppercase;
+		font-weight: bold;
+		position: absolute;
+		top: 13px;
 
 		a {
 			display: inline-block;
+			&:hover {
+				color: #fff;
+			}
 		}
 
 		img {
