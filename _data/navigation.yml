@@ -1,6 +1,6 @@
 - name: Wiki
   link: /wiki
-  new_window: false
+  new_window: true
   highlight: false
 - name: Обновления
   link: https://ctlos.github.io/wiki/changelog
