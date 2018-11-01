@@ -1,8 +1,6 @@
 left_links:
-  - name: Блог
-    link: https://medium.com/ctlos
-  - name: О нас
-    link: https://medium.com/ctlos/ctlos-about-4a2bd90eadb5
+  - name: Wiki
+    link: /wiki
   - name: Поддержать
     link: /donat
   - name: Сообщество
