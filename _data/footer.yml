@@ -5,6 +5,10 @@ left_links:
     link: /donat
 right_links:
   - name:
+    link: https://t.me/ctlos
+    new_window: true
+    social_icon: telegram
+  - name:
     link: https://vk.com/ctlos
     new_window: true
     social_icon: vk
