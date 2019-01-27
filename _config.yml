@@ -12,9 +12,6 @@ disqus_shortname: ctlos
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /assets/img/siteicon.png
 description: Ctlos Linux — iso образ, основанный на Arch Linux.
-author:
-  name: Alex Creio
-  email: ctlos@protonmail.com
 social:
   name: Ctlos Linux
   links:
