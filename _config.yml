@@ -15,11 +15,13 @@ description: Ctlos Linux — iso образ, основанный на Arch Linu
 author:
   name: Alex Creio
   email: ctlos@protonmail.com
-  twitter: ctloslin
 social:
   name: Ctlos Linux
   links:
+    - https://twitter.com/ctloslin
     - https://github.com/ctlos
+twitter:
+  username: ctloslin
 
 # -----
 # Build
