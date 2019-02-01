@@ -88,8 +88,12 @@ section + section {
 
 
 .cta {
-	margin: 60px 0;
+	margin: 50px 0;
 	text-transform: uppercase;
+	a {
+		display: inline-block;
+		margin: 10px;
+	}
 }
 
 .page h2 {
