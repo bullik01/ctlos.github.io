@@ -33,6 +33,10 @@ collections:
   staff_members:
     _hide_content: true
 
+collections:
+  thanks_members:
+    _hide_content: true
+
 permalink: pretty
 
 defaults:
