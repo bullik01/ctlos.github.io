@@ -32,8 +32,6 @@ sass:
 collections:
   staff_members:
     _hide_content: true
-
-collections:
   thanks_members:
     _hide_content: true
 
