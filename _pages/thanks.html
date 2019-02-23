@@ -8,8 +8,8 @@ comments: false
 <ul class="staff">
 	{% for person in site.thanks_members %}
 		<li>
-			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
-			<div class="name"><a target="_blank" href="{% include relative-src.html src=person.url_path %}">{{ person.name }}</a></div>
+			<div class="square-image"><img src="{% include thanks-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
+			<div class="name"><a target="_blank" href="{% include thanks-src.html src=person.url_path %}">{{ person.name }}</a></div>
 			<div class="position">{{ person.position }}</div>
 			<p class="blurb">{{ person.blurb }}</p>
 		</li>
