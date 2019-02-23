@@ -6,6 +6,10 @@
   link: https://ctlos.github.io/wiki/changelog
   new_window: true
   highlight: false
+- name: Dev
+  link: /dev
+  new_window: false
+  highlight: false
 - name: Сообщество
   link: /contact
   new_window: false

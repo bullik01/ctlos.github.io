@@ -3,6 +3,8 @@ left_links:
     link: /wiki
   - name: Поддержать
     link: /donat
+  - name: Dev
+    link: /dev
 right_links:
   - name:
     link: https://t.me/ctlos
