@@ -4,7 +4,8 @@ left_links:
   - name: Поддержать
     link: /donat
   - name: Dev
-    link: /dev
+    link: https://github.com/orgs/ctlos/people
+    new_window: true
 right_links:
   - name:
     link: https://t.me/ctlos
