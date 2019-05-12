@@ -22,6 +22,8 @@ description: Раздаем Криптовалюту. Вы помогаете н
 <div class="container flex">
 <div class="text editable">
 
+> Все отчеты и вопросы относительно Ctlos Coina задавать в данном чате [t.me/ctloscoin](https://t.me/ctloscoin){:target="_blank"}.
+
 Награда | Действие | Описание
 --- | --- | ---
 *Still* | `renders` | **nicely**
