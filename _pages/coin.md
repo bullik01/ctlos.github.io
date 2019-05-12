@@ -22,7 +22,10 @@ description: Раздаем Криптовалюту. Вы помогаете н
 <div class="container flex">
 <div class="text editable">
 
-
+Награда | Действие | Описание
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 
 </div>
 </div>
