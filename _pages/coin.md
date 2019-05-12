@@ -16,3 +16,15 @@ description: Раздаем Криптовалюту. Вы помогаете н
 		<!-- <div class="cta button alt"><a target="_blank" href="/wiki/whois">о нас</a> <a target="_blank" href="/wiki/1install/install-ctlos/">Установка</a></div> -->
 	</div>
 </section>
+
+<div class="content">
+<section>
+<div class="container flex">
+<div class="text editable">
+
+
+
+</div>
+</div>
+</section>
+</div>
