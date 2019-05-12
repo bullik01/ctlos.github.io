@@ -19,6 +19,14 @@ a {
 a:hover {	
 	color: #00a4ca;
 }
+a.blue {
+	color: #fff;
+	text-decoration: underline;
+}
+
+a.blue:hover {	
+	color: #ccc;
+}
 
 img {
 	width: 100%;
