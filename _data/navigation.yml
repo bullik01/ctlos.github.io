@@ -18,6 +18,10 @@
   link: /donat
   new_window: false
   highlight: false
+- name: Coin
+  link: https://creio.gitlab.io/coin
+  new_window: true
+  highlight: true
 - name: Скачать
   link: /get
   new_window: false
