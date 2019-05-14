@@ -62,9 +62,8 @@ nav {
 	}
 
 	a:hover {
-
 		border-bottom: 1px solid $accent;
-		color: #fff;
+		color: $light_color;
 	}
 
 	@media #{$mid-point} {
@@ -79,7 +78,7 @@ nav {
 		}
 		a.accent {
 			background: $brand_accent;
-			color: #fff;
+			color: $light_color;
 			border: 1px $brand_accent solid;
 			border-radius: 3px;
 
@@ -91,7 +90,7 @@ nav {
 	}
 
 	a.active {
-		color: #fff;
+		color: $light_color;
 	}
 
 }
