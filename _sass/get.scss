@@ -1,7 +1,7 @@
 .info {
 	text-align: center;
-	color: #333;
-	font-size: 1.2em;
+	color: $accent;
+	font-size: 1.1em;
 }
 
 section.get {
@@ -15,25 +15,4 @@ section.get {
 		font-size: 1.2em;
 		margin: 5px 0;
 	}
-}
-
-.button-get {
-	margin: 40px 0;
-	a {
-		color: #fff;
-		text-decoration: none;
-		text-transform: uppercase;
-		padding: 10px 30px;
-		background: $brand-color;
-		border-radius: 3px;
-		border: 1px solid rgba(255,255,255,.5);
-		transition: .2s ease-in-out;
-	}
-}
-
-.button-get a:hover {
-	color: $brand-color;
-	border: 1px solid $brand-color;
-	background: #fff;
-	cursor: pointer;
 }

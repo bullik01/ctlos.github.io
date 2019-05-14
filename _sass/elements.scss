@@ -115,4 +115,25 @@ p, address {
 	background: $accent;
 	color: $bgc_darker;
 }
+// get
+.button-get {
+	margin: 40px 0;
+	a {
+		color: $light_color;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding: 10px 30px;
+		background: $bgc_darker;
+		border-radius: 3px;
+		border: 1px solid rgba(255,255,255,.5);
+		transition: .2s ease-in-out;
+	}
+}
+
+.button-get a:hover {
+	color: $bgc_darker;
+	border: 1px solid $bgc_darker;
+	background: #fff;
+	cursor: pointer;
+}
 // end btn
