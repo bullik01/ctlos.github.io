@@ -18,12 +18,12 @@
 }
 
 header {
-	color: #fff;
+	color: $accent;
 	padding: 5px 0;
 	background: $bgc_dark;
 
 	a {
-		color: #fff;
+		color: $accent;
 		text-decoration: none;
 		z-index: 1;
 		position: relative;
@@ -41,7 +41,7 @@ header {
 		a {
 			display: inline-block;
 			&:hover {
-				color: #fff;
+				color: $accent;
 			}
 		}
 
