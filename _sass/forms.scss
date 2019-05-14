@@ -1,5 +1,5 @@
 .button a, input[type=submit] {
-	color: $light_text;
+	color: #fff;
 	text-decoration: none;
 	padding: 10px 30px;
 	background: $bgc_darker;
@@ -9,8 +9,8 @@
 }
 
 .button a:hover, input[type=submit]:hover {
-	border: 1px solid $light_text;
-	background: $secondary-brand-color;
+	border: 1px solid #fff;
+	background: $secondary-bgc_darker;
 	cursor: pointer;
 }
 
@@ -22,8 +22,8 @@
 }
 
 .button.alt a:hover {
-	background: $accent;
-	color: $light_text;
+	background: rgba(255,255,255,0.15);
+	color: $bgc_darker;
 }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
