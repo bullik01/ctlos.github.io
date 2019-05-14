@@ -8,6 +8,7 @@ google_analytics: UA-90439782-2
 ya_metrika: 47541358
 google_verification: 6GXUozcEfaPdh8Qcr-0qBY2AV8MkL-QoQ66FpbytieM
 disqus_shortname: ctlos
+brand_logo: /assets/img/logo.svg
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /assets/img/siteicon.png
