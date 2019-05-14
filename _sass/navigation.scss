@@ -33,7 +33,7 @@ nav {
 		margin: 0 3px;
 		padding: 5px 10px;
 		border-bottom: 1px solid rgba(255,255,255,0);
-		color: rgba(255,255,255,.8);
+		color: $accent;
 		transition: .2s ease-in-out;
 		display: none;
 
@@ -79,6 +79,7 @@ nav {
 		}
 		a.accent {
 			background: $brand_accent;
+			color: #fff;
 			border: 1px $brand_accent solid;
 			border-radius: 3px;
 
