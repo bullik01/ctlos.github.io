@@ -77,6 +77,15 @@ nav {
 				color: $brand-color;
 			}
 		}
+		a.accent {
+			background: $brand_accent;
+			border: none;
+			border-radius: 5px;
+
+			&:hover {
+				background: $middle-gradient-color;
+			}
+		}
 	}
 
 	a.active {

@@ -6,6 +6,10 @@
 			{% assign class = class | append: " highlight" %}
 		{% endif %}
 
+		{% if link.accent %}
+			{% assign class = class | append: " accent" %}
+		{% endif %}
+
 		{% if link.link == page.url %}
 			{% assign class = class | append: " active" %}
 		{% endif %}
