@@ -119,11 +119,11 @@ p, address {
 .button-get {
 	margin: 40px 0;
 	a {
+		background: $brand_accent;
 		color: $light_color;
 		text-decoration: none;
 		text-transform: uppercase;
 		padding: 10px 30px;
-		background: $bgc_darker;
 		border-radius: 3px;
 		border: 1px solid rgba(255,255,255,.5);
 		transition: .2s ease-in-out;
