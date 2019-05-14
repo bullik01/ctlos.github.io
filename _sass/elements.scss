@@ -59,7 +59,7 @@ h3 {
 
 p, address {
 	font-size: 1.38em;
-	color: mix($accent, 95%);
+	color: mix($accent, $bgc_darker, 95%);
 	margin-bottom: 20px;
 	font-weight: 300;
 	line-height: 1.4em;
