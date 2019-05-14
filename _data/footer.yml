@@ -15,11 +15,11 @@ right_links:
     link: https://vk.com/ctlos
     new_window: true
     social_icon: vk
-  # - name:
-  #   link: https://mastodon.social/@ctlos
-  #   social_icon: mastodon
-  #   new_window: true
-  #   rel_me: true
+  - name:
+    link: https://mastodon.social/@ctlos
+    social_icon: mastodon
+    new_window: true
+    rel_me: true
   - name:
     link: https://youtube.com/channel/UCPCp_ZnMKEwYdnA_YfOZrZg?sub_confirmation=1
     social_icon: youtube
