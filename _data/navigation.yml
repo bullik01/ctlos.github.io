@@ -21,8 +21,8 @@
 - name: Coin
   link: https://creio.gitlab.io/coin
   new_window: true
-  accent: true
+  highlight: true
 - name: Скачать
   link: /get
   new_window: false
-  highlight: true
+  accent: true

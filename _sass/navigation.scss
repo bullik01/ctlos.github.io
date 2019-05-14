@@ -63,27 +63,28 @@ nav {
 
 	a:hover {
 
-		border-bottom: 1px solid rgba(255,255,255,.3);
+		border-bottom: 1px solid $accent;
 		color: #fff;
 	}
 
 	@media #{$mid-point} {
 		a.highlight {
+			border: 1px $accent solid;
+			border-radius: 5px;
+
+			&:hover {
+				background: $accent;
+				color: $brand-color;
+			}
+		}
+		a.accent {
 			background: $brand_accent;
 			border: none;
 			border-radius: 5px;
 
 			&:hover {
 				background: $middle-gradient-color;
-			}
-		}
-		a.accent {
-			border: 1px #ccc solid;
-			border-radius: 5px;
-
-			&:hover {
-				background: #fff;
-				color: $brand-color;
+				border: 1px $accent solid;
 			}
 		}
 	}
