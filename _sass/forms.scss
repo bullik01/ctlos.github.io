@@ -1,5 +1,5 @@
 .button a, input[type=submit] {
-	color: #fff;
+	color: $bgc_darker;
 	text-decoration: none;
 	padding: 10px 30px;
 	background: $bgc_darker;
@@ -23,7 +23,7 @@
 
 .button.alt a:hover {
 	background: rgba(255,255,255,0.15);
-	color: $bgc_darker;
+	color: $light_text;
 }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
