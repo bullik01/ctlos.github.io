@@ -33,7 +33,7 @@ img {
 }
 
 h1, h2, h3, h4, h5 {
-	color: #333;
+	color: $accent;
 }
 
 h1 strong, h2 strong {
@@ -59,7 +59,7 @@ h3 {
 
 p, address {
 	font-size: 1.38em;
-	color: #666;
+	color: mix($accent, 95%);
 	margin-bottom: 20px;
 	font-weight: 300;
 	line-height: 1.4em;
