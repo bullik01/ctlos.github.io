@@ -16,16 +16,12 @@ right_links:
     new_window: true
     social_icon: vk
   - name:
-    link: https://discord.gg/m6uFRp4
-    social_icon: discord
+    link: https://mastodon.social/@ctlos
+    social_icon: mastodon
     new_window: true
   - name:
     link: https://youtube.com/channel/UCPCp_ZnMKEwYdnA_YfOZrZg?sub_confirmation=1
     social_icon: youtube
-    new_window: true
-  - name:
-    link: https://twitter.com/ctloslin
-    social_icon: twitter
     new_window: true
   - name:
     link: https://github.com/ctlos
