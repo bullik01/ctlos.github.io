@@ -70,7 +70,7 @@ nav {
 	@media #{$mid-point} {
 		a.highlight {
 			border: 1px $accent solid;
-			border-radius: 5px;
+			border-radius: 3px;
 
 			&:hover {
 				background: $accent;
@@ -79,8 +79,8 @@ nav {
 		}
 		a.accent {
 			background: $brand_accent;
-			border: none;
-			border-radius: 5px;
+			border: 1px $brand_accent solid;
+			border-radius: 3px;
 
 			&:hover {
 				background: $middle-gradient-color;
