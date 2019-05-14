@@ -12,12 +12,12 @@ body {
 }
 
 a {
-	color: #4182e4;
+	color: $brand_accent;
 	text-decoration: none;
 }
 
 a:hover {	
-	color: #00a4ca;
+	color: $accent;
 }
 a.blue {
 	color: $light_color;
