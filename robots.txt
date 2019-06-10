@@ -4,6 +4,7 @@ sitemap: false
 ---
 User-agent: *
 Disallow: /wiki/search/
+Disallow: /wiki/ctl/
 Sitemap: {{ site.url }}/sitemap.xml
 Sitemap: {{ site.url }}/wiki/sitemap.xml
 Host: ctlos.github.io
